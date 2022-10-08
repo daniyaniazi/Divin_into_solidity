@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createSimpleStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "simpleStorage",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"freecodecamp32Hrs_solidity/StorageFactory.sol": "StorageFatory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"freecodecamp32Hrs_solidity/StorageFactory.sol": {
+			"keccak256": "0x7f5c0eaa96d154886c911c522856fdb7ec394a77d21da74a8084cabaeb442d3e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://de18c684d57059aa55f1a5193cbccb10e2a6039d63837d380ad185248bf9cee5",
+				"dweb:/ipfs/QmWUr2sqiSLt4xSY6gBVD4dqxSHZEwTcvvK9tH8WMyvDek"
+			]
+		},
+		"freecodecamp32Hrs_solidity/basics.sol": {
+			"keccak256": "0x8a26ac15547429968e14d67808a2694aae31591ba58486cc64bbb9fac808b2c9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6bcb229153a900bf653cd6f56342aa0bd9637cd8c1a05173b4373184395479fe",
+				"dweb:/ipfs/QmUkryiQ9Lp3QMosEm6yJg4gNydahPouMkauU5r1f14HqZ"
+			]
+		}
+	},
+	"version": 1
+}
