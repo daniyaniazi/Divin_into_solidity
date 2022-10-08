@@ -22,6 +22,9 @@ contract SimpleStorage{
         // [3] static size
         People[] public peoples;
 
+
+        // string is array of bytes
+        // solidity know about uint256
         function addPerson(string memory _name , uint256 _favoriteNumber) public{
             People memory newPerson = People({favoriteNumber:_favoriteNumber,name:_name});
             peoples.push(newPerson);
@@ -43,4 +46,11 @@ contract SimpleStorage{
         function retrieve() public view returns(uint256){
             return favoriteNumber;
         }
+
+        // array , struct , memory -> only these need data location to be specified
+
+        // calldata , memory -> variable is only gona exist temporarily
+        // calldata -> if modification is not expected 
+        // memory -> temp var that can be modified
+        // storage -> exist event outside function / transaction
     }
