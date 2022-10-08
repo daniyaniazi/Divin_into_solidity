@@ -26,6 +26,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToFavooriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -120,11 +139,11 @@
 	},
 	"sources": {
 		"freecodecamp32Hrs_solidity/basics.sol": {
-			"keccak256": "0x39dcaf906992ea2706a24e3304776c96bbc8ec2f72dd56d12f79d58d8970ee46",
+			"keccak256": "0x8a26ac15547429968e14d67808a2694aae31591ba58486cc64bbb9fac808b2c9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ad1d99f90101d4293baf8f127bbf09c4e473bd00fa71e800337f53064742a72b",
-				"dweb:/ipfs/QmYRKsh53YqhrjRn92UVo4SoEL3nwV2eNMhsFbAtWVbvuq"
+				"bzz-raw://6bcb229153a900bf653cd6f56342aa0bd9637cd8c1a05173b4373184395479fe",
+				"dweb:/ipfs/QmUkryiQ9Lp3QMosEm6yJg4gNydahPouMkauU5r1f14HqZ"
 			]
 		}
 	},

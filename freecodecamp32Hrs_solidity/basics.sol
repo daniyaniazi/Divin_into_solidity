@@ -7,6 +7,9 @@ contract SimpleStorage{
         //variables
         uint256 favoriteNumber;
 
+        //mapping
+        mapping(string => uint256) public nameToFavooriteNumber;
+
         //structures -> custom datatype
         struct People{
             uint256 favoriteNumber;
@@ -28,6 +31,7 @@ contract SimpleStorage{
         function addPerson(string memory _name , uint256 _favoriteNumber) public{
             People memory newPerson = People({favoriteNumber:_favoriteNumber,name:_name});
             peoples.push(newPerson);
+            nameToFavooriteNumber[_name]=_favoriteNumber;
 
         }
 
