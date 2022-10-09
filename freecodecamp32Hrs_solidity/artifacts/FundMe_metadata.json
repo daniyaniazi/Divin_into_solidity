@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -51,51 +56,6 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "ethAmmount",
-						"type": "uint256"
-					}
-				],
-				"name": "getConversionRate",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getPrice",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getVersion",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "minimumUSD",
 				"outputs": [
@@ -106,6 +66,26 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -145,11 +125,19 @@
 			]
 		},
 		"freecodecamp32Hrs_solidity/FundMe.sol": {
-			"keccak256": "0xbcabb77e0bbd5f5d660eb68238c1afb4c8302657683bb9e6c597d6f1a363db83",
+			"keccak256": "0xd8ba5429f9661b426e71c48bc0bead2d450926a2aca997f4d3978658708f093e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://86bb624b7db37c86ee820af86e724658e0189234e8fabfb0fed27ba4769782d0",
-				"dweb:/ipfs/QmaHVQgUazmkNhS21Gi8u561khjkmdvWGiRdcV631NaDBL"
+				"bzz-raw://5c98868043dd5bb4b68cc99ddca2e8c37707d934b6e0c4ca86afbecc19b1c798",
+				"dweb:/ipfs/QmXjC949nfTNnXWsgDUPQ4QdDanaMWSZbJS8Kg3wTZJD4v"
+			]
+		},
+		"freecodecamp32Hrs_solidity/PriceConverter.sol": {
+			"keccak256": "0xe688ce7f7519f3a549c0810d6d68fe7e385b94178d654644bc49fd584407f34e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a1d8672af42784e55c4a81c4589db8f6004d9d5bab2fdcd578949b541e3d4f63",
+				"dweb:/ipfs/Qmc1t83Ti8PthkF13Zmp12sYMD5YswSLBWshZGhos57KzL"
 			]
 		}
 	},
