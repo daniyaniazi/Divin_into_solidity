@@ -11,6 +11,24 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [],
+				"name": "NotOwner",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "MINIMUM_USD",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -57,20 +75,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "minimumUSD",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
+				"name": "i_owner",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -125,11 +130,11 @@
 			]
 		},
 		"freecodecamp32Hrs_solidity/FundMe.sol": {
-			"keccak256": "0xd8ba5429f9661b426e71c48bc0bead2d450926a2aca997f4d3978658708f093e",
+			"keccak256": "0xbf435b4bd44d1898638a08ad8555088780e736ea877e0125b445a89d1ee92986",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5c98868043dd5bb4b68cc99ddca2e8c37707d934b6e0c4ca86afbecc19b1c798",
-				"dweb:/ipfs/QmXjC949nfTNnXWsgDUPQ4QdDanaMWSZbJS8Kg3wTZJD4v"
+				"bzz-raw://e814cde80abbbd9137891500356de07ca6a591fe438c44d68a7fbedde15c77c6",
+				"dweb:/ipfs/QmagCgHgGsjY8R2M36a67AKTp9xMPKR3Qqnx6meYkqSi54"
 			]
 		},
 		"freecodecamp32Hrs_solidity/PriceConverter.sol": {

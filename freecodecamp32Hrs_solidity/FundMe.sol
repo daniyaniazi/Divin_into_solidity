@@ -7,20 +7,22 @@ import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 import "./PriceConverter.sol";
 pragma solidity  ^0.8.8;
 
+error NotOwner();
+
 contract FundMe{
-    address public  owner;
+    address public immutable i_owner;
     constructor(){
         // gets called when deployed
-        owner = msg.sender;
+        i_owner = msg.sender;
     }
     using PriceConverter for uint256;
     address[] public funders;
     mapping(address=>uint256) public addressToAmountFunded;
-    uint256 public minimumUSD = 50 * 1e18;
+    uint256 public constant MINIMUM_USD = 50 * 1e18;
     function fund() public payable{
         // require -> if condition match or else revert
         // revert -> undo any action that happen befire and send the remaining gas back
-        require(msg.value.getConversionRate() > minimumUSD, "Didn't send enough funds"); // 1e18 == 1 * 10 ** 18 = 1000000000000000000 wei = 1 eth
+        require(msg.value.getConversionRate() > MINIMUM_USD , "Didn't send enough funds"); // 1e18 == 1 * 10 ** 18 = 1000000000000000000 wei = 1 eth
         funders.push(msg.sender);
         addressToAmountFunded[msg.sender]=msg.value + addressToAmountFunded[msg.sender];
     }
@@ -48,7 +50,8 @@ contract FundMe{
     }
 
     modifier onlyOwner {
-        require (msg.sender==owner , "Sender is not an owner");
+        // require (msg.sender==i_owner , "Sender is not an owner");
+       if(msg.sender != i_owner){ revert NotOwner();}
         _;
     }
 }
