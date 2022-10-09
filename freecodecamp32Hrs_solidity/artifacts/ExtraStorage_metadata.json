@@ -124,7 +124,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"freecodecamp32Hrs_solidity/basics.sol": "SimpleStorage"
+			"freecodecamp32Hrs_solidity/ExtraStorage.sol": "ExtraStorage"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -138,6 +138,14 @@
 		"remappings": []
 	},
 	"sources": {
+		"freecodecamp32Hrs_solidity/ExtraStorage.sol": {
+			"keccak256": "0xfd48175b8a12bbb5b77b001daa653d3f3a8861c6e99454ba107275a6b2027ac3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b5348be5358e80f976e417eb8a241354d30b48d2484f574ed3847cff8f2e7bb3",
+				"dweb:/ipfs/QmWBznk1DccTpVhT7vdGnsntnwmAZd5fnKqY6rM8ZJAAuq"
+			]
+		},
 		"freecodecamp32Hrs_solidity/basics.sol": {
 			"keccak256": "0xd086a972f96cbd829aa25045316c229d4cff40ff7c7ffd2e3a00925c93c3d859",
 			"license": "MIT",

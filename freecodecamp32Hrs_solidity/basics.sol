@@ -37,7 +37,8 @@ contract SimpleStorage{
 
 
         // Functions
-        function store(uint256 _favoriteNumber) public {
+        // virtual -> makes a function overidable
+        function store(uint256 _favoriteNumber) public virtual {
             favoriteNumber=_favoriteNumber;
             // however if called inside a gas constly function it will consume gas
             retrieve();
