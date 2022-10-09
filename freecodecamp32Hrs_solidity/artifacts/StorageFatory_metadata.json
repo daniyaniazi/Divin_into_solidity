@@ -13,8 +13,51 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "simpleStorage",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "simpleStorageArray",
 				"outputs": [
 					{
 						"internalType": "contract SimpleStorage",
@@ -54,11 +97,11 @@
 	},
 	"sources": {
 		"freecodecamp32Hrs_solidity/StorageFactory.sol": {
-			"keccak256": "0x7f5c0eaa96d154886c911c522856fdb7ec394a77d21da74a8084cabaeb442d3e",
+			"keccak256": "0xc492e3baf685b975a26852129dbcbd646ef3ac903b5e46b134c02cb456c42b35",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://de18c684d57059aa55f1a5193cbccb10e2a6039d63837d380ad185248bf9cee5",
-				"dweb:/ipfs/QmWUr2sqiSLt4xSY6gBVD4dqxSHZEwTcvvK9tH8WMyvDek"
+				"bzz-raw://1007f03c780be01d410632bc1767aa6be9f5b24343f11207f62b72e43a55e05f",
+				"dweb:/ipfs/QmTetPwCCBbStkFBHEzNeuwvx4HmgxRKWiFVo5PJ7HoVu4"
 			]
 		},
 		"freecodecamp32Hrs_solidity/basics.sol": {
