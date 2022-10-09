@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"freecodecamp32Hrs_solidity/SpecialFunctions.sol": "FallBackExample"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"freecodecamp32Hrs_solidity/SpecialFunctions.sol": {
+			"keccak256": "0x0ef630faf6c16221f656fba2fd556cb579b5f68e4ea9129271d9ab892c36437a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e0745ea5871bed7ff310612ca5d1dda42b89b43b149571a725593b688f2d3e05",
+				"dweb:/ipfs/QmejPjzX8NcY6GcnYxTp6a6Y2AatohRTNGUVDGfrdbnxen"
+			]
+		}
+	},
+	"version": 1
+}

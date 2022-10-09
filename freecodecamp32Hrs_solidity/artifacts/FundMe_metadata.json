@@ -16,6 +16,10 @@
 				"type": "error"
 			},
 			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
 				"inputs": [],
 				"name": "MINIMUM_USD",
 				"outputs": [
@@ -92,6 +96,10 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -130,11 +138,11 @@
 			]
 		},
 		"freecodecamp32Hrs_solidity/FundMe.sol": {
-			"keccak256": "0xbf435b4bd44d1898638a08ad8555088780e736ea877e0125b445a89d1ee92986",
+			"keccak256": "0x34d36a1c9eab383e0fb19f5f584ff28e52c72704816ac19dcb3cb1e4950d33f9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e814cde80abbbd9137891500356de07ca6a591fe438c44d68a7fbedde15c77c6",
-				"dweb:/ipfs/QmagCgHgGsjY8R2M36a67AKTp9xMPKR3Qqnx6meYkqSi54"
+				"bzz-raw://0fe7654da44f58bc5869c42b39268707c9bfac728ebf12edd5c0af2040b52d4e",
+				"dweb:/ipfs/Qma3XXJ49A1XuhEeU1n6qFwDGZNK4vssNU5YR7ZSMXh8BA"
 			]
 		},
 		"freecodecamp32Hrs_solidity/PriceConverter.sol": {
